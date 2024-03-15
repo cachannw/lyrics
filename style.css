@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-family: "Kulim Park", sans-serif;
+  font-weight: 400;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+ul {
+  line-height: 3rem;
+  list-style: none;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+h1,
+ol {
+  text-align: center;
+}
+
+h1 {
+  color: #d77138;
+  font-size: 2.2rem;
+  margin-bottom: 4rem;
+}
+
+li {
+  font-size: 1.6rem;
+}
+
+.song-title {
+  text-decoration: none;
+  color: #202020;
+}
+
+.person {
+  color: #909090;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.btn-back {
+  color: #909090;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+
+.lyrics {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #202020;
+  line-height: 2rem;
+  margin-bottom: 5rem;
+}
+
+.song {
+  font-size: 2rem;
+  color: #a1562c;
+  padding-top: 3rem;
+}
