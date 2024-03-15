@@ -19,7 +19,7 @@ body {
 }
 
 ul {
-  line-height: 3rem;
+  line-height: clamp(3rem, 4.6vw, 5.2rem);
   list-style: none;
   text-align: center;
   padding-bottom: 5rem;
@@ -32,12 +32,17 @@ ol {
 
 h1 {
   color: #d77138;
-  font-size: 2.2rem;
+  font-size: clamp(2rem, 3vw, 3.4rem);
   margin-bottom: 4rem;
 }
 
 li {
-  font-size: 1.6rem;
+  font-size: clamp(1.6rem, 2vw, 3rem);
+}
+
+.lyrics {
+  font-size: clamp(1.6rem, 2vw, 3rem);
+  line-height: clamp(2.2rem, 3.2vw, 4rem);
 }
 
 .song-title {
@@ -47,18 +52,16 @@ li {
 
 .lyrics {
   text-align: center;
-  font-size: 1.6rem;
   color: #202020;
-  line-height: 2rem;
   margin-bottom: 5rem;
 }
 
 .chi {
-  line-height: 2.6rem;
+  line-height: clamp(2.6rem, 3vw, 4.4rem);
 }
 
 .song {
-  font-size: 2rem;
+  font-size: clamp(2rem, 3vw, 3.4rem);
   color: #a1562c;
   padding-top: 3rem;
   margin-bottom: 2rem;
