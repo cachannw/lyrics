@@ -45,20 +45,6 @@ li {
   color: #202020;
 }
 
-.person {
-  color: #909090;
-  font-size: 1.6rem;
-  font-weight: 600;
-  text-align: center;
-  padding-bottom: 1rem;
-}
-
-.btn-back {
-  color: #909090;
-  font-size: 1.6rem;
-  text-decoration: none;
-}
-
 .lyrics {
   text-align: center;
   font-size: 1.6rem;
@@ -67,8 +53,32 @@ li {
   margin-bottom: 5rem;
 }
 
+.chi {
+  line-height: 2.6rem;
+}
+
 .song {
   font-size: 2rem;
   color: #a1562c;
   padding-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.youtube-link {
+  text-align: center;
+  color: #909090;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.btn-back {
+  color: #909090;
+  text-decoration: none;
+  font-size: 1.6rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
 }
