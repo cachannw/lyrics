@@ -12,21 +12,8 @@ body {
   background-color: #f4f4f4;
   font-family: "Kulim Park", sans-serif;
   font-weight: 400;
-  padding-top: 3rem;
-  padding-bottom: 5rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-ul {
-  line-height: clamp(3rem, 4.6vw, 5.2rem);
-  list-style: none;
-  text-align: center;
-  padding-bottom: 5rem;
-}
-
-h1,
-ol {
+  padding: 3rem 2rem 5rem 2rem;
+  align-items: center;
   text-align: center;
 }
 
@@ -36,13 +23,14 @@ h1 {
   margin-bottom: 4rem;
 }
 
-li {
-  font-size: clamp(1.6rem, 2vw, 3rem);
+ul {
+  line-height: clamp(3rem, 4.6vw, 5.2rem);
+  list-style: none;
+  padding-bottom: 5rem;
 }
 
-.lyrics {
+li {
   font-size: clamp(1.6rem, 2vw, 3rem);
-  line-height: clamp(2.2rem, 3.2vw, 4rem);
 }
 
 .song-title {
@@ -50,8 +38,32 @@ li {
   color: #202020;
 }
 
+/* LYRICS */
+
+.song {
+  color: #a1562c;
+  padding-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.link {
+  color: #909090;
+  margin-top: clamp(2rem, 3vw, 3.8rem);
+  margin-bottom: 2rem;
+  text-decoration: none;
+  font-size: clamp(1rem, 2vw, 2rem);
+}
+
+.info {
+  font-size: clamp(1rem, 2vw, 2rem);
+  margin-top: clamp(1rem, 2vw, 2rem);
+  margin-bottom: clamp(0.6rem, 1vw, 1rem);
+}
+
 .lyrics {
-  text-align: center;
+  margin-top: 2rem;
+  font-size: clamp(1.6rem, 2vw, 3rem);
+  line-height: clamp(2.2rem, 3.2vw, 4rem);
   color: #202020;
   margin-bottom: 5rem;
 }
@@ -60,17 +72,10 @@ li {
   line-height: clamp(2.6rem, 3vw, 4.4rem);
 }
 
-.song {
-  font-size: clamp(2rem, 3vw, 3.4rem);
-  color: #a1562c;
-  padding-top: 3rem;
-  margin-bottom: 2rem;
-}
-
 .btn-back {
   color: #909090;
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: clamp(1.6rem, 2vw, 3rem);
   background-color: white;
   padding: 1rem;
   border-radius: 0.5rem;
