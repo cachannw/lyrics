@@ -20,7 +20,13 @@ body {
 h1 {
   color: #d77138;
   font-size: clamp(2rem, 3vw, 3.4rem);
-  margin-bottom: 4rem;
+  margin-bottom: clamp(2rem, 3vw, 3.4rem);
+}
+
+.note {
+  margin-bottom: clamp(4rem, 4vw, 5rem);
+  color: #909090;
+  font-size: clamp(1rem, 2vw, 2rem);
 }
 
 ul {
